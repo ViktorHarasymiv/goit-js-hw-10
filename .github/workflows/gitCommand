@@ -9,9 +9,8 @@
 ; git push --set-upstream origin header - пуш створеної гілки (робиться лише один раз при першому пуші, далі git push);
 
 ; git pull - отримуємо остані зміни з github;
-; git merge "'brancName';
+; git merge 'brancName';
 ; git merge --abort - відміна зливання;
 ; git branch --d branchName - видаляємо гілку локальну з проекту;
 ; git push origin --delete "branchName - видаляємо гілку з github;
 ; git log - історія комітів (q - вихід з режиму перегляду);
-; git 

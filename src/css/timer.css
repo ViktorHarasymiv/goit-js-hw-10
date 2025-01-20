@@ -1,0 +1,67 @@
+.timer { 
+    margin-top:  32px;
+    display: flex;
+    gap: 24px;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.value {
+font-size: 40px;
+line-height: 120%;
+letter-spacing: 0.04em;
+
+}
+
+.label {
+text-transform: uppercase;
+letter-spacing: 1px;
+font-size: 16px;
+}
+
+.date_change {
+    margin-right: 8px;
+    border: 1px solid ;
+    border-radius: 4px;
+
+    width: 256px;
+    height: 38px;
+}
+
+.date_change:active {
+    border: 1px solid #4e75ff;
+}
+
+input[type="text" i] {
+    padding: 0px 0px 0px 14px;
+
+    padding-block: 0px;
+
+
+    font-size: 16px;
+    letter-spacing: 0.04em;
+}
+
+button[data-start] {
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 75px;
+    height: 40px;
+    background: #cfcfcf;
+}
+
+button[data-start]:not(:disabled) {
+    background: #4e75ff;
+    letter-spacing: 0.04em;
+    color: #fff;
+}
+
+button[data-start]:not(:disabled):hover {
+    background: #6c8cff;
+}

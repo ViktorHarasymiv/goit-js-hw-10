@@ -12,12 +12,19 @@
     "glob": "^11.0.0",
     "postcss": "^8.4.41",
     "postcss-sort-media-queries": "^5.2.0",
+    "sass-embedded": "^1.83.1",
     "vite": "^5.4.6"
   },
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "flatpickr": "^4.6.13",
+    "izitoast": "^1.4.0",
+    "normalize-scss": "^8.0.0",
+    "normalize.css": "^8.0.1",
     "vite-plugin-full-reload": "^1.2.0",
-    "vite-plugin-html-inject": "^1.1.2"
+    "vite-plugin-html-inject": "^1.1.2",
+    "vite-plugin-sass": "^0.1.0",
+    "vue-izitoast": "^1.2.1"
   }
 }
